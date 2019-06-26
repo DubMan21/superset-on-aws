@@ -32,7 +32,15 @@ After a few minutes the server should be running
 
 ![Connection instructions](https://github.com/DubMan21/superset-on-aws/blob/master/img/connexion.png "Connection instructions")
 
-After that, you will be connected to your EC2 as ubuntu user.
+> After that, you will be connected to your EC2 as ubuntu user.
 
 ![SSH connection](https://github.com/DubMan21/superset-on-aws/blob/master/img/terminal.png "SSH connection")
+
+### 3.Deploy superset on the server
+
+> We need to be root to execute superset on the HTTP port (80) of our server, so we will have to install it as root. 
+
++ '''bash
+$ sudo su
+'''
 
