@@ -15,7 +15,9 @@
 
 ![instance protocols](https://github.com/DubMan21/superset-on-aws/blob/master/img/ports.png "instance protocols")  
 
-+ Finally click on **Check and launch** button, then on **Lanch**.
++ Finally click on **Check and launch** button then on **Lanch** and create and download a new key pair.
 After a few minutes the server should be running
 
 > You can see it on the **EC2** service's **instance** section
+
+
