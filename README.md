@@ -40,7 +40,7 @@ After a few minutes the server should be running
 
 > We need to be root to execute superset on the HTTP port (80) of our server, so we will have to install it as root. 
 
-+```bash
+```bash
 $ sudo su
 ```
 
