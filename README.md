@@ -4,4 +4,4 @@ First, on AWS console go to the **EC2** service **instance** section and click o
 
 Then, select an **Ubuntu Server 18.04 LTS** instance.
 
-![alt text](https://github.com/DubMan21/superset-on-aws/img/ubuntu-server.png "Ubuntu Server 18.04 LTS")
+![Ubuntu Server 18.04 LTS](https://github.com/DubMan21/superset-on-aws/blob/master/img/ubuntu-server.png "Ubuntu Server 18.04 LTS")
