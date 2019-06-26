@@ -29,3 +29,6 @@ After a few minutes the server should be running
 ### 2. Connect to the instance
 
 + First select the instance and click on **Connexion**. Then, follow the instructions to connect to your EC2 with SSH protocol.
+
+![Connection instructions](https://github.com/DubMan21/superset-on-aws/blob/master/img/connexion.png "Connection instructions")
+
