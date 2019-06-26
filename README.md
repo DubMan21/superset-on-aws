@@ -1,5 +1,7 @@
 # Deploy superset on an EC2 AWS.
 
+### 1. Create an instance EC2
+
 + First, on AWS console go to the **EC2** service's **instance** section and click on **launch an instance**.
 
 + Then, select an **Ubuntu Server 18.04 LTS** instance.
@@ -24,4 +26,4 @@ After a few minutes the server should be running
 
 ![Runnig server](https://github.com/DubMan21/superset-on-aws/blob/master/img/running-server.png "Runnig server")
 
-
+### 2. Connect to the instance
