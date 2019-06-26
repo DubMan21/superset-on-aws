@@ -14,3 +14,8 @@
 + Go to tab **6.Configure the security group** to add HTTP and HTTPS protocols.
 
 ![instance protocols](https://github.com/DubMan21/superset-on-aws/blob/master/img/ports.png "instance protocols")  
+
++ Finally click on **Check and launch** button, then on **Lanch**.
+After a few minutes the server should be running
+
+> You can see it on the **EC2** service **instance** section
