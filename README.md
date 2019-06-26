@@ -82,3 +82,7 @@ $ sudo su
 + You can go to your browser with the address **http://*DNS Public*** and connect with the credentials created earlier.
 
 ![Superset](https://github.com/DubMan21/superset-on-aws/blob/master/img/superset.png "Superset")
+
+---
+
+[Superset documentation](https://superset.incubator.apache.org/installation.html)
