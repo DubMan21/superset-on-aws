@@ -32,3 +32,7 @@ After a few minutes the server should be running
 
 ![Connection instructions](https://github.com/DubMan21/superset-on-aws/blob/master/img/connexion.png "Connection instructions")
 
+After that, you will be connected to your EC2 as ubuntu user.
+
+![SSH connection](https://github.com/DubMan21/superset-on-aws/blob/master/img/terminal.png "SSH connection")
+
