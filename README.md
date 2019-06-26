@@ -18,6 +18,10 @@
 + Finally click on **Check and launch** button then on **Lanch** and create and download a new key pair.
 After a few minutes the server should be running
 
-> You can see it on the **EC2** service's **instance** section
+> You can see it on the **EC2** service's **instance** section.
+> When you select it, you can see all its parameters
+> The most importants are DNS and IP publique.
+
+![Runnig server](https://github.com/DubMan21/superset-on-aws/blob/master/img/image.png "Runnig server")
 
 
