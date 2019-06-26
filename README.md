@@ -1,2 +1,1 @@
-# superset-on-aws
-Tutorial to deploy superset on an aws seveur
+# Deploy superset on an EC2 AWS.
