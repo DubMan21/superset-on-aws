@@ -22,6 +22,6 @@ After a few minutes the server should be running
 > When you select it, you can see all its parameters
 > The most importants are DNS and IP publique.
 
-![Runnig server](https://github.com/DubMan21/superset-on-aws/blob/master/img/image.png "Runnig server")
+![Runnig server](https://github.com/DubMan21/superset-on-aws/blob/master/img/running-server.png "Runnig server")
 
 
