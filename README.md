@@ -1,6 +1,6 @@
 # Deploy superset on an EC2 AWS.
 
-+ First, on AWS console go to the **EC2** service **instance** section and click on **launch an instance**.
++ First, on AWS console go to the **EC2** service's **instance** section and click on **launch an instance**.
 
 + Then, select an **Ubuntu Server 18.04 LTS** instance.
 
@@ -18,4 +18,4 @@
 + Finally click on **Check and launch** button, then on **Lanch**.
 After a few minutes the server should be running
 
-> You can see it on the **EC2** service **instance** section
+> You can see it on the **EC2** service's **instance** section
