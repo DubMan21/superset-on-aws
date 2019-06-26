@@ -4,6 +4,7 @@
 
 
 
+
 + First, on AWS console go to the **EC2** service's **instance** section and click on **launch an instance**.
 
 
