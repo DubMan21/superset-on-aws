@@ -28,9 +28,9 @@ After a few minutes the server should be running
 
 ### 2. Connect to the instance
 
-+ First select the instance and click on **Connexion**. Then, follow the instructions to connect to your EC2 with SSH protocol.
++ First select the instance and click on **Connection**. Then, follow the instructions to connect to your EC2 with SSH protocol.
 
-![Connection instructions](https://github.com/DubMan21/superset-on-aws/blob/master/img/connexion.png "Connection instructions")
+![Connection instructions](https://github.com/DubMan21/superset-on-aws/blob/master/img/connection.png "Connection instructions")
 
 > After that, you will be connected to your EC2 as ubuntu user.
 
@@ -40,7 +40,45 @@ After a few minutes the server should be running
 
 > We need to be root to execute superset on the HTTP port (80) of our server, so we will have to install it as root. 
 
++ Become a **root**, and go to **/**.
+
 ```bash
 $ sudo su
+# cd
 ```
 
++ Update and download the necessary installations.
+
+```bash
+# apt update
+# apt-get install build-essential libssl-dev libffi-dev python-dev python-pip libsasl2-dev libldap2-dev
+# apt-get install build-essential libssl-dev libffi-dev python3.6-dev python-pip libsasl2-dev libldap2-dev
+# pip install --upgrade setuptools pip
+# apt install python3-pip
+# pip3 install superset
+# pip3 install pandas==0.23.4
+# pip3 install sqlalchemy==1.2.18
+```
+
++ now you need to create a user.
+
+```bash
+# fabmanager create-admin --app superset
+```
+
++ You can now finish the installation of superset.
+
+```bash
+# superset db upgrade
+# superset init
+```
+
++ Finally run the superset server on HTTP port (80).
+
+```bash
+# superset runserver -p 80
+```
+
++ You can go to your browser with the address **http://*DNS Public*** and connect with the credentials created earlier.
+
+![Superset](https://github.com/DubMan21/superset-on-aws/blob/master/img/superset.png "Superset")
